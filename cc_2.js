@@ -26,3 +26,12 @@ employee.position = "Manager"; // Adding a new property to the employee object
 console.log("Updated Employee Record:", employee); // Updated Employee Record
 // Task 3 - Employee Records
 
+// Task 4 - Customer Database
+let customers = [ 
+    {name: "Avery White", email: "avery.white@gmail.com", purchaseAmount: 100},
+    {name: "Brady Deschenes", email: "brady.deschnenes@gmail.com", purchaseAmount: 50},
+    {name: "Colin Long", email: "colin.long@gmail.com", purchaseAmount: 75},
+];
+customers.push({name: "Hunter Leonard", email: "hunter.leonard", purchaseAmount: 150}); // Adding a new customer to the list
+console.log("Updated Customer List:", customers); // Updated Customer List
+// Task 4 - Customer Database
