@@ -13,3 +13,16 @@ let average = total / scores.length; // Average of all scores - scores.length is
 console.log("Updated Scores:", scores); // Updated Scores
 console.log("Average Score:", average.toFixed(2)); // Average Score rounded to 2 decimal places
 // Task 2 - Student Grades
+
+// Task 3 - Employee Records
+let employee = {
+    name: "First Name", // Name of the employee
+    age: 25, // Age of the employee
+    department: "Sales", // Department of the employee
+    isActive: true // Status of the employee
+};
+employee.department = "Marketing"; // Updating the department of the employee to Marketing
+employee.position = "Manager"; // Adding a new property to the employee object
+console.log("Updated Employee Record:", employee); // Updated Employee Record
+// Task 3 - Employee Records
+
