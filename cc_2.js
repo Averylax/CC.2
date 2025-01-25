@@ -35,3 +35,16 @@ let customers = [
 customers.push({name: "Hunter Leonard", email: "hunter.leonard", purchaseAmount: 150}); // Adding a new customer to the list
 console.log("Updated Customer List:", customers); // Updated Customer List
 // Task 4 - Customer Database
+
+// Task 5 - Ordering Process System
+let order = {
+    orderId: 1337, // Order ID
+    customerName: "Tom Brady", // Customer Name
+    amount: 200, // Amount of the order
+    calculateTax: function () {
+    return this.amount * 0.1; // Calculating the tax amount
+    }
+};
+console.log("Order Details:", order); // Order Details
+console.log("Tax Amount:", order.calculateTax().toFixed(2)); // Tax Amount
+// Task 5 - Ordering Process System
